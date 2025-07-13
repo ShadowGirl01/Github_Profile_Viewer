@@ -1,0 +1,91 @@
+/* General styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff9c5; /* Soft cheerful yellow */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+/* Container styling */
+.container {
+  background: #fffdf0; /* Creamy container */
+  padding: 30px 40px;
+  margin-top: 80px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  text-align: center;
+  border: 2px solid #ffdab9; /* peach border */
+}
+
+/* Heading */
+.container h1 {
+  margin-bottom: 20px;
+  color: #3e2723; /* Warm brown text */
+}
+
+/* Input styling */
+input[type="text"] {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #f8c291;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #ffe8d6; /* Soft pastel pink */
+  color: #3e2723;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #ff6f61; /* Coral red */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #e65a50; /* Deeper coral */
+}
+
+/* Profile section */
+#profile {
+  margin-top: 20px;
+}
+
+#profile h2 {
+  margin-bottom: 10px;
+  color: #3e2723;
+}
+
+#profile img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #f8c291;
+}
+
+#profile p {
+  margin: 5px 0;
+  color: #444;
+}
+
+#profile a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #ff6f61;
+  font-weight: bold;
+}
+
+#profile a:hover {
+  text-decoration: underline;
+}
